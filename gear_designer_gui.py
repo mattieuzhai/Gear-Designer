@@ -218,7 +218,7 @@ file_name_entry.grid(row = 3, column = 3, padx = 5, pady = 5)
 calculate_button = ttk.Button(window, text="Calculate and Export", command=calculate_solutions)
 calculate_button.grid(row=4, column=1, columnspan=2, pady=10)
 
-info_text = ttk.Label(window, text = "Some guidelines: keeping # of planets even and min gear teeth a multiple of # of planets allows for more optmial solutions")
+info_text = ttk.Label(window, text = "Small note: if you make the min/max gear teeth a multiple of the number of planets, it'll find your solutions faster ")
 info_text.grid(row = 5, column = 1,padx = 5, pady = 5)
 # Run the GUI application
 window.mainloop()
